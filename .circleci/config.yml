@@ -10,8 +10,6 @@ jobs:
       - checkout:
           path: ~/se-git-demo1
       - run: npm install
-      - run: 
-          name: "Run tests"
           environment:
             NODE_OPTIONS: --experimental-vm-modules
           command: npm run test
