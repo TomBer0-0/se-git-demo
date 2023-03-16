@@ -3,6 +3,7 @@ from main import Add
 
 def TestAdd():
         assert Add(4,6) == 10
+        assert Add(5,12) == 17
         print("Add operation successful.")
 
 if __name__ == '__main__':
